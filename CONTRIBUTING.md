@@ -41,24 +41,12 @@ accept your pull requests.
 1. The Template repo owner will respond to your enhancement issue promptly.
    Instructional value is the top priority when evaluating new app proposals for
    this collection of repos.
-1. If your proposal is accepted, and you haven't already done so, sign a
-   Contributor License Agreement (see details above).
-1. Create your own repo for your app following this naming convention:
-    * {product}-{app-name}-{language}
-    * products: appengine, compute, storage, bigquery, prediction, cloudsql
-    * example:  appengine-guestbook-python
-    * For multi-product apps, concatenate the primary products, like this:
-      compute-appengine-demo-suite-python.
-    * For multi-language apps, concatenate the primary languages like this:
-      appengine-sockets-python-java-go.
-
-1. Clone the README.md, CONTRIB.md and LICENSE files from the
-   GoogleCloudPlatform/Template repo.
+1. Comment on the issue to ask for a new repo to be created for your sample, with `README.md`, `CONTRIBUTING.md` and `LICENSE` files from the [GoogleCloudPlatform/Template](https://github.com/GoogleCloudPlatform/Template) repo.
 1. Ensure that your code adheres to the existing style in the sample to which
    you are contributing. Refer to the
    [Google Cloud Platform Samples Style Guide]
    (https://github.com/GoogleCloudPlatform/Template/wiki/style.html) for the
    recommended coding standards for this organization.
 1. Ensure that your code has an appropriate set of unit tests which all pass.
-1. Submit a request to fork your repo in GoogleCloudPlatform organizationt via
-   your proposal issue.
+1. Submit a a pull request to the repo created under GoogleCloudPlatform organization.
+1. If you haven't already done so, sign a Contributor License Agreement (see details above).
